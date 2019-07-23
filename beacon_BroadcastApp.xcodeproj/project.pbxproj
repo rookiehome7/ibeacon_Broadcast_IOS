@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E032EEAD22E3529400C0EA6C /* becon_BroadcastApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = becon_BroadcastApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E032EEAD22E3529400C0EA6C /* beacon_BroadcastApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beacon_BroadcastApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E032EEB022E3529400C0EA6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E032EEB222E3529400C0EA6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E032EEB522E3529400C0EA6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		E032EEA422E3529400C0EA6C = {
 			isa = PBXGroup;
 			children = (
-				E032EEAF22E3529400C0EA6C /* becon_BroadcastApp */,
+				E032EEAF22E3529400C0EA6C /* beacon_BroadcastApp */,
 				E032EEAE22E3529400C0EA6C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		E032EEAE22E3529400C0EA6C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E032EEAD22E3529400C0EA6C /* becon_BroadcastApp.app */,
+				E032EEAD22E3529400C0EA6C /* beacon_BroadcastApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E032EEAF22E3529400C0EA6C /* becon_BroadcastApp */ = {
+		E032EEAF22E3529400C0EA6C /* beacon_BroadcastApp */ = {
 			isa = PBXGroup;
 			children = (
 				E032EEB022E3529400C0EA6C /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				E032EEB922E3529500C0EA6C /* LaunchScreen.storyboard */,
 				E032EEBC22E3529500C0EA6C /* Info.plist */,
 			);
-			path = becon_BroadcastApp;
+			path = beacon_BroadcastApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E032EEAC22E3529400C0EA6C /* becon_BroadcastApp */ = {
+		E032EEAC22E3529400C0EA6C /* beacon_BroadcastApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E032EEBF22E3529500C0EA6C /* Build configuration list for PBXNativeTarget "becon_BroadcastApp" */;
+			buildConfigurationList = E032EEBF22E3529500C0EA6C /* Build configuration list for PBXNativeTarget "beacon_BroadcastApp" */;
 			buildPhases = (
 				E032EEA922E3529400C0EA6C /* Sources */,
 				E032EEAA22E3529400C0EA6C /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = becon_BroadcastApp;
+			name = beacon_BroadcastApp;
 			productName = becon_BroadcastApp;
-			productReference = E032EEAD22E3529400C0EA6C /* becon_BroadcastApp.app */;
+			productReference = E032EEAD22E3529400C0EA6C /* beacon_BroadcastApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E032EEA822E3529400C0EA6C /* Build configuration list for PBXProject "becon_BroadcastApp" */;
+			buildConfigurationList = E032EEA822E3529400C0EA6C /* Build configuration list for PBXProject "beacon_BroadcastApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E032EEAC22E3529400C0EA6C /* becon_BroadcastApp */,
+				E032EEAC22E3529400C0EA6C /* beacon_BroadcastApp */,
 			);
 		};
 /* End PBXProject section */
@@ -285,11 +285,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7G36ZYUT6V;
 				INFOPLIST_FILE = becon_BroadcastApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rookie.becon-BroadcastApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "rookie.beacon-BroadcastApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,11 +304,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7G36ZYUT6V;
 				INFOPLIST_FILE = becon_BroadcastApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rookie.becon-BroadcastApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "rookie.beacon-BroadcastApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E032EEA822E3529400C0EA6C /* Build configuration list for PBXProject "becon_BroadcastApp" */ = {
+		E032EEA822E3529400C0EA6C /* Build configuration list for PBXProject "beacon_BroadcastApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E032EEBD22E3529500C0EA6C /* Debug */,
@@ -326,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E032EEBF22E3529500C0EA6C /* Build configuration list for PBXNativeTarget "becon_BroadcastApp" */ = {
+		E032EEBF22E3529500C0EA6C /* Build configuration list for PBXNativeTarget "beacon_BroadcastApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E032EEC022E3529500C0EA6C /* Debug */,

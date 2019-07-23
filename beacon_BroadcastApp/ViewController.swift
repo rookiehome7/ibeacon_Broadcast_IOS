@@ -28,7 +28,7 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate {
     
     let localBeaconUUID = "7D0D9B66-0554-4CCF-A6E4-ADE12325C4F0"
     let localBeaconMajor: CLBeaconMajorValue = 123
-    let localBeaconMinor: CLBeaconMinorValue = 456
+    let localBeaconMinor: CLBeaconMinorValue = 789
     let identifier = "Put your identifier here"
     
     override func viewDidLoad() {
